@@ -1,0 +1,146 @@
+@media screen and (max-width: 600px) {
+    header {
+        padding: 0;
+        min-height: 100vh !important;
+
+    }
+     .right-header {
+        padding: 0 !important;
+        margin: 0 auto;
+        width: 90%;
+        grid-row: 1;
+        margin-top: 2rem;
+        .name {
+            font-size: 2.5rem !important;
+        }
+    }
+
+    .left-header {
+        padding-bottom: 4rem;
+        .h-shape {
+            display: none;
+        }
+    }
+
+    .header-content {
+        grid-template-columns: 1fr;
+    }
+
+    .left-header .image {
+        margin: 0 auto !important;
+        width: 90% !important;
+    }
+
+    .sec4 {
+        padding: 0 3rem;
+        margin: auto;
+    }
+
+    .section {
+        padding: 1rem !important;
+    }
+
+    .contact-content-con {
+        flex-direction: column;
+        padding: 2rem !important;
+        .right-contact {
+            margin-left: 0 !important;
+            margin-top: 2rem !important;
+            .contact-form {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+
+    .input-control {
+        input {
+            font-size: 0.5rem !important;
+        }
+    }
+
+    .portfolios {
+        grid-template-columns: 1fr !important;
+        padding-bottom: 4rem;
+    }
+
+    .blogs {
+        grid-template-columns: 1fr !important;
+        // padding: 0;
+        margin-bottom: 4rem;
+    }
+
+    .about-container {
+        grid-template-columns: 1fr;
+        .right-about {
+            grid-template-columns: 1fr;
+            margin-top: 2rem;
+        }
+        .left-about {
+            h4 {
+                text-align: center;
+            }
+            p {
+                padding: 0 !important;
+                margin-top: 1rem;
+            }
+        }
+    }
+
+    .btn-con {
+        margin-top: 1rem;
+    }
+
+    .about-stats {
+        .progress-bars {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .timeline {
+        grid-template-columns: 1fr;
+        margin-bottom: 5rem !important;
+        padding: 0 2rem !important;
+    }
+
+    .controls {
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        // position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: var(--color-grey5);
+        width: 100%;
+        .control {
+            margin: 1rem .3rem;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .about-container {
+        grid-template-columns: 1fr;
+        .left-about {
+            margin-bottom: 2rem;
+            h4 {
+                text-align: center;
+            }
+            p {
+                padding: 0 !important;
+                margin-top: 1rem;
+                margin-bottom: 2rem;
+            }
+        }
+    }
+
+    .portfolios {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .blogs {
+        grid-template-columns: 1fr 1fr;
+    }
+}
